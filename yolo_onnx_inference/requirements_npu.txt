@@ -1,0 +1,23 @@
+numpy
+scipy
+scikit-learn
+onnx
+opencv-python 
+opencv-python-headless
+torch==2.2.0
+torchvision
+ultralytics
+
+# Ascend NPU
+onnxruntime-cann
+torch-npu==2.2.0
+
+# Ascend NPU runtime depends on the following libs but doesn't provide them
+decorator
+attrs 
+cloudpickle 
+synr==0.5.0 
+tornado 
+absl-py
+psutil
+scipy

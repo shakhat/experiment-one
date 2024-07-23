@@ -1,0 +1,22 @@
+open-clip-torch==2.24.0
+transformers<4.39
+numpy
+torch==2.2.0
+torchvision
+opencv-python
+matplotlib
+onnx
+onnxruntime-cann
+onnxscript
+
+torch-npu==2.2.0
+
+# Ascend NPU runtime requires the following libs but doesn't provide them
+decorator
+attrs 
+cloudpickle 
+synr==0.5.0 
+tornado 
+absl-py
+psutil
+scipy

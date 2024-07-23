@@ -1,0 +1,10 @@
+numpy
+scipy
+scikit-learn
+onnx
+onnxruntime
+opencv-python 
+opencv-python-headless
+torch
+torchvision
+ultralytics
